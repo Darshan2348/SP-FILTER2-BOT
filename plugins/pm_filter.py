@@ -613,6 +613,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f_caption
         if f_caption is None:
             f_caption = f"{files.file_name}"
+	    
+	title_words = title.split()
+        title_words = [word if "@" not in word else "" for word in title_words]
+        title = " ".join(title_words)
+
+        # Provide the path to your custom thumbnail
+        thumbnail_path = "assets/thumbnail.jpg"
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
@@ -629,6 +636,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await client.send_cached_media(
                     chat_id=query.from_user.id,
                     file_id=file_id,
+		    thumb=thumbnail_path,
                     caption=f_caption,
                     reply_markup=keyboard,
                     protect_content=True if ident == "filep" else False 
