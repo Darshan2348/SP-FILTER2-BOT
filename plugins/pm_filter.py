@@ -302,6 +302,7 @@ async def next_page(bot, query):
                         InlineKeyboardButton(text=f"{get_size(file.file_size)}",callback_data=f'files#{file.file_id}',),
                     ]
                     for file in files
+		]
         else:
             if query.form_user.id in ADMINS:
                 btn = [
