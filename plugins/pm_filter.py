@@ -794,7 +794,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await OpenSettings(query.message)
 
     elif query.data == "triggerUploadMode":
-        await query.answer("Thank You LazyDeveloper")
+        await query.answer("Thank You SP OFFICIAL")
         upload_as_doc = await db.get_upload_as_doc(query.from_user.id)
         if upload_as_doc:
             await db.set_upload_as_doc(query.from_user.id, False)
@@ -879,7 +879,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"🔍 Search Here 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupportbot")
+                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupport_bot")
             ],[
                 InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://youtube.com/@SPOFFICIALINFO")
 
@@ -907,7 +907,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"🔍 Search Here 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupportbot")
+                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupport_bot")
             ],[
                 InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://youtube.com/@SPOFFICIALINFO")
             ]]
@@ -934,7 +934,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"🔍 Search Here 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupportbot")
+                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupport_bot")
             ],[
                 InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://youtube.com/@SPOFFICIALINFO")
 
@@ -962,9 +962,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"🔍 Search Here 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupportbot")
+                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupport_bot")
             ],[
-                InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://youtube.com/@SPOFFICIALINFOr")
+                InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://youtube.com/@SPOFFICIALINFO")
             ]]
             btn_lzdv = [
                 [
@@ -989,7 +989,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"🔍 Search Here 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupportbotSupport")
+                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupport_bot")
             ],[
                 InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://youtube.com/@SPOFFICIALINFO")
 
@@ -1017,7 +1017,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"🔍 Search Here 🔎", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupportbot")
+                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupport_bot")
             ],[
                 InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://youtube.com/@SPOFFICIALINFO")
             ]]
@@ -1044,7 +1044,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn = [[
                 InlineKeyboardButton(text=f"💛 Request More 💛", url=f"https://telegram.me/{MOVIE_GROUP_USERNAME}")
             ],[
-                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupportbot")
+                InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://telegram.me/SPOfficialSupport_bot")
             ],[
                 InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://youtube.com/@SPOFFICIALINFO")
 
